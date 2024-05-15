@@ -7,17 +7,17 @@ echo "# myrepo" >> README.md
 git init
 git add README.md
 git commit -m "first commit"
-git remote add origin https://github.com/Shreyaswini-P/Projects/myrepo.git
-git push -u origin master
+git remote add origin https://github.com/Shreyaswini-P/Projects.git
+git push -u origin main
 ```
 
 …or push an existing repository from the command line
 
 ```
-git remote add origin https://github.com/Shreyaswini-P/Projects/myrepo.git
+git remote add origin https://github.com/Shreyaswini-P/Projects.git
 git pull origin master --allow-unrelated-histories
 git commit -a -m "merge"
-git push -u origin master
+git push -u origin main
 ```
 
 …or import code from another repository
